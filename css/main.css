@@ -12,6 +12,7 @@ main {
   flex-direction: column;
   justify-content: center;
   flex: 1;
+  grid-gap: 10px;
 }
 
 header, footer {
@@ -30,6 +31,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#embeds {
+  display: flex;
+  justify-content: center;
+  grid-gap: 10px;
 }
 
 a {
