@@ -15,17 +15,34 @@ main {
 }
 
 header, footer {
-  height: 7vh;
+  height: 10vh;
   display: flex;
   justify-content: center;
 }
 
 footer {
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 #logo {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a {
+  color: #026A98;
+}
+
+footer>ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+footer>ul>li {
+  display: inline;
+  margin: 5px;
 }
