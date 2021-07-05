@@ -1,0 +1,31 @@
+body {
+  color: #026A98;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+header, footer {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  align-items: flex-end;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
